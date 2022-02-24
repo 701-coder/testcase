@@ -26,9 +26,9 @@ for ((i=0; ; i++)); do
     timeout --kill-after=60s 60s ./${c_file} ${in} > ${temp}/out
     tle=$?
     df=`diff ${temp}/${i}.out ${temp}/out`
-    if [[ ${tle} != 0 ]]; then
-        echo -e "${i}\tTime Limit Exceeded"
-    elif [[ ${df} == "" ]]; then
+    #if [[ ${tle} != 0 ]]; then
+    #    echo -e "${i}\tRuntime Error"
+    if [[ ${df} == "" ]]; then
         echo -e "${i}\tAccepted"
     else
         echo -e "${i}\tWrong Answer"
