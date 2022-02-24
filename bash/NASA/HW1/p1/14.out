@@ -1,0 +1,2 @@
+usage: ./p1.sh -s <Unix timestamp > -e <Unix timestamp > <input file>
+ex: ./p1.sh -s 1133642864 -e 1133643505 log1.txt log3.txt
