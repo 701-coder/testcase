@@ -301,7 +301,7 @@
 1133700107 [notice] jk2_init() Found child 2045 in scoreboard slot 9
 1133700162 [notice] jk2_init() Found child 2051 in scoreboard slot 8
 1133700269 [notice] jk2_init() Found child 2059 in scoreboard slot 7
-1133700269 [notice] jk2_init() Found child 2060 in scoreboard slot 9[Sun Dec 04 05:04:03 2005] [notice] jk2_init() Found child 8763 in scoreboard slot 9
+1133700269 [notice] jk2_init() Found child 2060 in scoreboard slot 9
 1133700270 [notice] jk2_init() Found child 2061 in scoreboard slot 8
 1133700436 [error] mod_jk child init 1 -2
 1133700436 [error] mod_jk child workerEnv in error state 6
